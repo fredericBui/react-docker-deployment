@@ -1,6 +1,6 @@
 export default async function Home() {
 
-  const res = await fetch("http://127.0.0.1:8000/api/posts?page=1");
+  const res = await fetch(process.env.API_URL + '/api/posts?page=1');
   const data = await res.json();
   if (!data || !data.member) {
     return <div>No posts found</div>;
