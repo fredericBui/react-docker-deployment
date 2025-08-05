@@ -19,3 +19,5 @@ docker login
 docker tag react-deployment-example <nom_utilisateur_dockerhub>/react-deployment-example
 docker push <nom_utilisateur_dockerhub>/react-deployment-example
 ```
+
+Adapter le projet avec votre version de Node
