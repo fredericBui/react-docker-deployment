@@ -19,9 +19,3 @@ docker login
 docker tag react-deployment-example <nom_utilisateur_dockerhub>/react-deployment-example
 docker push <nom_utilisateur_dockerhub>/react-deployment-example
 ```
-
-4. Déployer le projet
-```bash
-docker run --name my-react-app -p 3000:3000 <nom_utilisateur_dockerhub>/react-deployment-example
-```
-
